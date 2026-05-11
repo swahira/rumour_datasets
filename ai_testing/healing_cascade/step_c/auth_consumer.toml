@@ -1,0 +1,9 @@
+[request]
+method = "GET"
+url = "http://localhost:3000/api/echo"
+
+[headers]
+X-Final-Auth = "{{auth_intermediate.accessToken}}"
+
+[assert]
+status = 200

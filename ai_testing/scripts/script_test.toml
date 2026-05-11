@@ -1,0 +1,11 @@
+[request]
+method = "POST"
+url = "http://localhost:3000/api/echo"
+pre_request = "script_test.pre.rhai"
+
+[body]
+raw = '{"original":"data"}'
+
+[assert]
+status = 200
+"json.body.signature" = "ai_signed_123456789"

@@ -1,0 +1,96 @@
+# Rust
+target/
+**/*.rs.bk
+*.pdb
+*.rlib
+*.rmeta
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+coverage/
+.cache/
+cache/
+
+# Tauri
+/ui/src-tauri/target/
+/ui/src-tauri/gen/
+/ui/dist/
+
+# Server
+/server/assets/*
+!/server/assets/.keep
+/server/data/*.json
+!/server/data/.keep
+/server/response.txt
+/server/server.log
+server.log
+
+# Project Specific
+/release/
+/rumour/release/
+/scratch/
+/rumour/scratch/
+.rumour/
+run_log_*.txt
+data/
+tests/workspaces/
+tests/samples/
+**/state.json
+**/dashboard.html
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.vscode-test/
+
+*.log
+
+test/analysis/
+analysis/*
+Phase*/
+Phase*/*
+
+# Audit Telemetry & Ecosystem
+tests/reports/*.json
+tests/reports/*.zip
+tests/Phase6/imported_workspace/
+tests/Phase6/workspace_export.zip
+tests/Phase6/ecosystem_audit.json
+
+server/uploads/*
+!server/uploads/.keep
+
+contention_test
+deep_vars_test
+stress_test
