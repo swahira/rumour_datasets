@@ -27,25 +27,19 @@ cache/
 /ui/src-tauri/gen/
 /ui/dist/
 
-# Server
-/server/assets/*
-!/server/assets/.keep
-/server/data/*.json
-!/server/data/.keep
-/server/response.txt
-/server/server.log
-server.log
+# Mock Server
+/mock-server/assets/*
+!/mock-server/assets/.keep
+/mock-server/data/*.json
+!/mock-server/data/.keep
+/mock-server/response.txt
+/mock-server/server.log
+mock-server/node_modules/
 
 # Project Specific
-/release/
-/rumour/release/
 /scratch/
-/rumour/scratch/
 .rumour/
 run_log_*.txt
-master_suite/
-tests/workspaces/
-tests/samples/
 **/state.json
 **/dashboard.html
 
@@ -82,15 +76,10 @@ Phase*/
 Phase*/*
 
 # Audit Telemetry & Ecosystem
-tests/reports/*.json
-tests/reports/*.zip
-tests/Phase6/imported_workspace/
-tests/Phase6/workspace_export.zip
-tests/Phase6/ecosystem_audit.json
+docs/reports/*.json
+docs/reports/*.zip
 
-server/uploads/*
-!server/uploads/.keep
+mock-server/uploads/*
+!mock-server/uploads/.keep
 
-contention_test
-deep_vars_test
-stress_test
+master_suite/

@@ -1,0 +1,3 @@
+[request]
+method = "GET"
+url = "{{base_url}}/api/ping?i=19"

@@ -1,0 +1,6 @@
+[request]
+method = "GET"
+url = "{{base_url}}/api/ping?i=26"
+
+[extract]
+shared_val = "json:message"
