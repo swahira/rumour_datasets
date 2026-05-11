@@ -1,0 +1,13 @@
+[request]
+method = "POST"
+url = "{{base_url}}/api/modules"
+
+[headers]
+Authorization = "Bearer {{accessToken}}"
+
+[body]
+type = "json"
+raw = '{"title": "Demo Module", "content": "Created by Rumour Parallel Engine"}'
+
+[extract]
+module_id = "id"

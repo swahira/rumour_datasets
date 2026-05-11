@@ -43,7 +43,7 @@ server.log
 /rumour/scratch/
 .rumour/
 run_log_*.txt
-data/
+master_suite/
 tests/workspaces/
 tests/samples/
 **/state.json

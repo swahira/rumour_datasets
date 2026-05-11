@@ -1,0 +1,7 @@
+[headers]
+X-Module = "Auth"
+Content-Type = "application/json"
+
+[config]
+heal = true
+parallel = false

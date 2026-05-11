@@ -1,0 +1,6 @@
+[request]
+method = "GET"
+url = "https://postman-echo.com/get?source=newman-sample-github-collection"
+
+[params]
+source = "newman-sample-github-collection"

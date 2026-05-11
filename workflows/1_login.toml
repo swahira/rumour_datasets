@@ -1,0 +1,10 @@
+[request]
+method = "POST"
+url = "{{base_url}}/api/auth/login"
+
+[body]
+type = "json"
+raw = '{"email": "{{admin_email}}", "password": "{{admin_password}}"}'
+
+[extract]
+accessToken = "token"
