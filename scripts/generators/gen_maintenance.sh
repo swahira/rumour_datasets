@@ -37,5 +37,5 @@ url = "{{base_url}}/secure-gate"
 x-protocol-version = "2.0"
 EOF
 
-echo "✅ Maintenance Dataset Generated in $BASE_DIR"
+echo "Maintenance Dataset Generated in $BASE_DIR"
 # This verifies Rumour's ability to interpret 426 and draining headers.

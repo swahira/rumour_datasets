@@ -27,4 +27,4 @@ url = "{{base_url}}/verify"
 Authorization = "Bearer {{complexToken}}"
 EOF
 
-echo "✅ JWT Advanced Dataset Generated in $BASE_DIR"
+echo "JWT Advanced Dataset Generated in $BASE_DIR"

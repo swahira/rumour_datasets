@@ -27,5 +27,5 @@ url = "{{base_url}}/related"
 Accept = "multipart/related"
 EOF
 
-echo "✅ Binary-Adv Dataset Generated in $BASE_DIR"
+echo "Binary-Adv Dataset Generated in $BASE_DIR"
 # This verifies Rumour's ability to handle deeply nested binary and related groupings.

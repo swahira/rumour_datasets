@@ -32,4 +32,4 @@ method = "POST"
 url = "{{base_url}}/trigger"
 EOF
 
-echo "✅ Webhooks Dataset Generated in $BASE_DIR"
+echo "Webhooks Dataset Generated in $BASE_DIR"

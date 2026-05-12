@@ -42,4 +42,4 @@ raw = """
 """
 EOF
 
-echo "✅ Synchronized Schema Generator."
+echo "Synchronized Schema Generator."

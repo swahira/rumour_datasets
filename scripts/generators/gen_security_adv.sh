@@ -49,4 +49,4 @@ raw = """
 """
 EOF
 
-echo "✅ Security-Adv Dataset Generated in $BASE_DIR"
+echo "Security-Adv Dataset Generated in $BASE_DIR"

@@ -27,4 +27,4 @@ raw = """
 """
 EOF
 
-echo "✅ Signing Dataset Generated in $BASE_DIR"
+echo "Signing Dataset Generated in $BASE_DIR"

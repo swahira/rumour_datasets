@@ -41,4 +41,4 @@ raw = """
 """
 EOF
 
-echo "✅ Fuzzing Dataset Generated in $BASE_DIR"
+echo "Fuzzing Dataset Generated in $BASE_DIR"

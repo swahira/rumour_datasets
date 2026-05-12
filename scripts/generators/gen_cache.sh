@@ -27,4 +27,4 @@ url = "{{base_url}}/data"
 If-None-Match = "{{etag}}"
 EOF
 
-echo "✅ Cache Dataset Generated in $BASE_DIR"
+echo "Cache Dataset Generated in $BASE_DIR"

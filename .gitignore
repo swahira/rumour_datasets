@@ -37,7 +37,6 @@ cache/
 mock-server/node_modules/
 
 # Project Specific
-/scratch/
 .rumour/
 run_log_*.txt
 **/state.json

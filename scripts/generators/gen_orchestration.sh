@@ -46,4 +46,4 @@ raw = """
 vehicleId = "vehicle_id"
 EOF
 
-echo "✅ Orchestration Dataset Generated in $BASE_DIR"
+echo "Orchestration Dataset Generated in $BASE_DIR"

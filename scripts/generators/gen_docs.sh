@@ -25,4 +25,4 @@ method = "GET"
 url = "{{base_url}}/validate-schema"
 EOF
 
-echo "✅ Docs Dataset Generated in $BASE_DIR"
+echo "Docs Dataset Generated in $BASE_DIR"

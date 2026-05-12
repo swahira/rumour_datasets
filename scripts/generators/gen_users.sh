@@ -53,4 +53,4 @@ raw = """
 user_id_new = "id"
 EOF
 
-echo "✅ Synchronized Users Generator."
+echo "Synchronized Users Generator."

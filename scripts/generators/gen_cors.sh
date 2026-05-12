@@ -38,4 +38,4 @@ url = "{{base_url}}/restricted"
 Origin = "http://malicious-site.com"
 EOF
 
-echo "✅ Synchronized CORS Generator."
+echo "Synchronized CORS Generator."

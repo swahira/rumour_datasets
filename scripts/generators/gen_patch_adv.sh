@@ -23,5 +23,5 @@ raw = """
 """
 EOF
 
-echo "✅ Patch-Adv Dataset Generated in $BASE_DIR"
+echo "Patch-Adv Dataset Generated in $BASE_DIR"
 # This verifies that Rumour can handle multi-path operations in a single atomic request.

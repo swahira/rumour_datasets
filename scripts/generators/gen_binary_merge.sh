@@ -14,4 +14,4 @@ method = "GET"
 url = "{{base_url}}/composite"
 EOF
 
-echo "✅ Binary-Merge Dataset Generated in $BASE_DIR"
+echo "Binary-Merge Dataset Generated in $BASE_DIR"

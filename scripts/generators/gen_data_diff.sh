@@ -27,4 +27,4 @@ url = "{{base_url}}/delta"
 If-None-Match = "abc"
 EOF
 
-echo "✅ Data-Diff Dataset Generated in $BASE_DIR"
+echo "Data-Diff Dataset Generated in $BASE_DIR"

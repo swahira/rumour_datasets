@@ -39,4 +39,4 @@ method = "GET"
 url = "{{base_url}}/tenant/tenant-ABC-123/config"
 EOF
 
-echo "✅ Environment Dataset Generated in $BASE_DIR"
+echo "Environment Dataset Generated in $BASE_DIR"

@@ -28,4 +28,4 @@ method = "POST"
 url = "{{base_url}}/v1/event"
 EOF
 
-echo "✅ Playback Dataset Generated in $BASE_DIR"
+echo "Playback Dataset Generated in $BASE_DIR"

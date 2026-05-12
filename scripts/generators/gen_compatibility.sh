@@ -30,4 +30,4 @@ url = "{{base_url}}/bruno-vars"
 x-bruno-var = "{{bruno_var}}"
 EOF
 
-echo "✅ Compatibility Dataset Generated in $BASE_DIR"
+echo "Compatibility Dataset Generated in $BASE_DIR"

@@ -30,4 +30,4 @@ url = "{{base_url}}/data"
 Accept = "text/csv"
 EOF
 
-echo "✅ Synchronized Transform Generator."
+echo "Synchronized Transform Generator."

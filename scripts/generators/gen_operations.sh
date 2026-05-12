@@ -39,4 +39,4 @@ method = "DELETE"
 url = "{{base_url}}/department/dept-1"
 EOF
 
-echo "✅ Operations Dataset Generated in $BASE_DIR"
+echo "Operations Dataset Generated in $BASE_DIR"

@@ -46,4 +46,4 @@ url = "{{base_url}}/get-global/shared_token"
 propagatedVal = "val"
 EOF
 
-echo "✅ Scripting Dataset Generated in $BASE_DIR"
+echo "Scripting Dataset Generated in $BASE_DIR"

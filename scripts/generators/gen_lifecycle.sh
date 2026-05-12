@@ -29,4 +29,4 @@ Access-Control-Request-Method = "POST"
 Access-Control-Request-Headers = "X-Rumour-Custom"
 EOF
 
-echo "✅ Lifecycle Dataset Generated in $BASE_DIR"
+echo "Lifecycle Dataset Generated in $BASE_DIR"

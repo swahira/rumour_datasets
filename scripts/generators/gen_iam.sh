@@ -58,4 +58,4 @@ url = "{{base_url}}/oidc/userinfo"
 Authorization = "Bearer {{iam_access_token}}"
 EOF
 
-echo "✅ IAM Dataset Generated with Namespacing."
+echo "IAM Dataset Generated with Namespacing."

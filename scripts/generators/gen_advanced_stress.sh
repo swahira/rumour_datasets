@@ -34,4 +34,4 @@ url = "{{base_url}}/quota?id=user-99"
 EOF
 done
 
-echo "✅ Advanced-Stress Dataset Generated in $BASE_DIR"
+echo "Advanced-Stress Dataset Generated in $BASE_DIR"

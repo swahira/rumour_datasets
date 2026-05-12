@@ -24,4 +24,4 @@ url = "{{base_url}}/data?count=5000"
 lastItemId = "items.4999.id"
 EOF
 
-echo "✅ Massive Dataset Generated in $BASE_DIR"
+echo "Massive Dataset Generated in $BASE_DIR"

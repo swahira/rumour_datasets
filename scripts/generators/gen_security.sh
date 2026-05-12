@@ -71,4 +71,4 @@ raw = """
 """
 EOF
 
-echo "✅ Synchronized Security Generator."
+echo "Synchronized Security Generator."

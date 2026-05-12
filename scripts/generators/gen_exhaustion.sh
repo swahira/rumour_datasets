@@ -25,4 +25,4 @@ url = "{{base_url}}/gc-spike"
 EOF
 done
 
-echo "✅ Exhaustion Dataset Generated in $BASE_DIR"
+echo "Exhaustion Dataset Generated in $BASE_DIR"

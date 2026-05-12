@@ -41,4 +41,4 @@ method = "POST"
 url = "{{base_url}}/cookies/logout"
 EOF
 
-echo "✅ Synchronized Cookies Generator."
+echo "Synchronized Cookies Generator."

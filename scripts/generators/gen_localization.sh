@@ -28,4 +28,4 @@ url = "{{base_url}}/i18n"
 Accept-Language = "es-ES"
 EOF
 
-echo "✅ Localization Dataset Generated in $BASE_DIR"
+echo "Localization Dataset Generated in $BASE_DIR"

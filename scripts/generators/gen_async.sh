@@ -25,4 +25,4 @@ method = "GET"
 url = "{{base_url}}/status/{{taskId}}"
 EOF
 
-echo "✅ Async Dataset Generated in $BASE_DIR"
+echo "Async Dataset Generated in $BASE_DIR"

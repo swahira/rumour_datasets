@@ -37,4 +37,4 @@ url = "{{base_url}}/rtl-meta"
 arabicTitle = "content.title"
 EOF
 
-echo "✅ Global Dataset Generated in $BASE_DIR"
+echo "Global Dataset Generated in $BASE_DIR"

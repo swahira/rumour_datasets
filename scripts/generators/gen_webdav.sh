@@ -24,5 +24,5 @@ method = "MKCOL"
 url = "{{base_url}}/resource/new_folder"
 EOF
 
-echo "✅ WebDAV Dataset Generated in $BASE_DIR"
+echo "WebDAV Dataset Generated in $BASE_DIR"
 # Note: This is a deep test for XML extraction from custom-method responses.

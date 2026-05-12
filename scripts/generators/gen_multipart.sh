@@ -21,4 +21,4 @@ raw = "file=@../../generators/gen_multipart.sh"
 multipart_upload_id = "file_id"
 EOF
 
-echo "✅ Synchronized Multipart Generator."
+echo "Synchronized Multipart Generator."

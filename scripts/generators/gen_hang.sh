@@ -14,4 +14,4 @@ method = "GET"
 url = "{{base_url}}/never-respond"
 EOF
 
-echo "✅ Hang Dataset Generated in $BASE_DIR"
+echo "Hang Dataset Generated in $BASE_DIR"

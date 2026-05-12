@@ -17,4 +17,4 @@ url = "{{base_url}}/subscribe"
 lastUpdateId = "data.monitorUpdates.id"
 EOF
 
-echo "✅ GraphQL-Sub Dataset Generated in $BASE_DIR"
+echo "GraphQL-Sub Dataset Generated in $BASE_DIR"

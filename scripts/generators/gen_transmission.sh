@@ -24,4 +24,4 @@ method = "GET"
 url = "{{base_url}}/stream"
 EOF
 
-echo "✅ Transmission Dataset Generated in $BASE_DIR"
+echo "Transmission Dataset Generated in $BASE_DIR"

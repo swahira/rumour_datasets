@@ -75,4 +75,4 @@ method = "GET"
 url = "{{base_url}}/auth/expired-token"
 EOF
 
-echo "✅ Synchronized Auth Generator."
+echo "Synchronized Auth Generator."

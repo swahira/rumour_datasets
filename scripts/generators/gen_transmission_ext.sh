@@ -27,4 +27,4 @@ url = "{{base_url}}/multi-range"
 Range = "bytes=0-4,10-14"
 EOF
 
-echo "✅ Transmission-Ext Dataset Generated in $BASE_DIR"
+echo "Transmission-Ext Dataset Generated in $BASE_DIR"

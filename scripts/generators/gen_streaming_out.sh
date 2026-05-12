@@ -27,4 +27,4 @@ url = "{{base_url}}/download-range"
 Range = "bytes=0-99"
 EOF
 
-echo "✅ Streaming-Out Dataset Generated in $BASE_DIR"
+echo "Streaming-Out Dataset Generated in $BASE_DIR"

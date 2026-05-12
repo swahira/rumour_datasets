@@ -18,4 +18,4 @@ type = "text"
 raw = "START_OF_STREAM_$(printf 'DATA_%.0s' {1..500})_END_OF_STREAM"
 EOF
 
-echo "✅ Streaming-In Dataset Generated in $BASE_DIR"
+echo "Streaming-In Dataset Generated in $BASE_DIR"

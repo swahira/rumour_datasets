@@ -18,20 +18,35 @@ app.use((req, res, next) => {
 const v2Dir = path.join(__dirname, 'routes', 'v2');
 if (!fs.existsSync(v2Dir)) fs.mkdirSync(v2Dir, { recursive: true });
 
+const catchAlls = [];
+
 fs.readdirSync(v2Dir).forEach(file => {
   if (file.endsWith('.js')) {
     const routeName = file.replace('.js', '');
     const hyphenatedName = routeName.replace(/_/g, '-');
     const route = require(`./routes/v2/${file}`);
     
-    app.use(`/api/v2/${routeName}`, route);
-    if (routeName !== hyphenatedName) {
-      app.use(`/api/v2/${hyphenatedName}`, route);
-      console.log(`Loaded Topic Module: ${routeName} (aliased to ${hyphenatedName})`);
+    if (routeName === 'playback' || routeName === 'docs_master') {
+      catchAlls.push({ routeName, hyphenatedName, route });
     } else {
+      app.use(`/`, route);
+      app.use(`/${routeName}`, route);
+      if (routeName !== hyphenatedName) {
+        app.use(`/${hyphenatedName}`, route);
+      }
       console.log(`Loaded Topic Module: ${routeName}`);
     }
   }
+});
+
+// Mount catch-alls last so they don't intercept specific routes
+catchAlls.forEach(({ routeName, hyphenatedName, route }) => {
+  app.use(`/`, route);
+  app.use(`/${routeName}`, route);
+  if (routeName !== hyphenatedName) {
+    app.use(`/${hyphenatedName}`, route);
+  }
+  console.log(`Loaded Catch-all Module: ${routeName}`);
 });
 
 // Swagger Setup

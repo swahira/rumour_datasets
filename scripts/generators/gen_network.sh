@@ -26,4 +26,4 @@ X-Forwarded-For = "10.0.0.1"
 X-Forwarded-Proto = "https"
 EOF
 
-echo "✅ Network Dataset Generated in $BASE_DIR"
+echo "Network Dataset Generated in $BASE_DIR"

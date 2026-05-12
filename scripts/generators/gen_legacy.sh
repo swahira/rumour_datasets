@@ -42,4 +42,4 @@ raw = """
 stockPrice = "soap:Envelope.soap:Body.GetStockPriceResponse.Price"
 EOF
 
-echo "✅ Legacy Dataset Generated in $BASE_DIR"
+echo "Legacy Dataset Generated in $BASE_DIR"

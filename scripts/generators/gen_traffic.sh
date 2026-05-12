@@ -25,4 +25,4 @@ url = "{{base_url}}/burst"
 EOF
 done
 
-echo "✅ Synchronized Traffic Generator."
+echo "Synchronized Traffic Generator."

@@ -27,4 +27,4 @@ memUsed = "metrics.memory.used"
 tagFirst = "tags.0"
 EOF
 
-echo "✅ Performance Dataset Generated in $BASE_DIR"
+echo "Performance Dataset Generated in $BASE_DIR"

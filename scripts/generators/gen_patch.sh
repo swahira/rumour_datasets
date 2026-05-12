@@ -24,4 +24,4 @@ raw = """
 """
 EOF
 
-echo "✅ Patch Dataset Generated in $BASE_DIR"
+echo "Patch Dataset Generated in $BASE_DIR"

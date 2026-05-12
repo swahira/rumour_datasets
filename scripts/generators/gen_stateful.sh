@@ -57,4 +57,4 @@ url = "{{base_url}}/resume"
 stateful_final_step = "last_successful_step"
 EOF
 
-echo "✅ Synchronized Stateful Generator."
+echo "Synchronized Stateful Generator."

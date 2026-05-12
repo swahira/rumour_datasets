@@ -24,4 +24,4 @@ method = "GET"
 url = "{{base_url}}/check"
 EOF
 
-echo "✅ Blocking Dataset Generated in $BASE_DIR"
+echo "Blocking Dataset Generated in $BASE_DIR"

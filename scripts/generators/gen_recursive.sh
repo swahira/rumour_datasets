@@ -27,4 +27,4 @@ url = "{{base_url}}/tree"
 grandChildName = "children.0.children.0.name"
 EOF
 
-echo "✅ Recursive Dataset Generated in $BASE_DIR"
+echo "Recursive Dataset Generated in $BASE_DIR"

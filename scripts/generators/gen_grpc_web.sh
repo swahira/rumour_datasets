@@ -22,4 +22,4 @@ type = "text"
 raw = "AAAAAAIKCghIdW1hbiAxMA=="
 EOF
 
-echo "✅ gRPC-Web Dataset Generated in $BASE_DIR"
+echo "gRPC-Web Dataset Generated in $BASE_DIR"

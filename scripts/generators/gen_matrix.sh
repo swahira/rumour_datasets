@@ -30,5 +30,5 @@ passedCount = "stats.passed"
 failedCount = "stats.failed"
 EOF
 
-echo "✅ Matrix Dataset Generated in $BASE_DIR"
+echo "Matrix Dataset Generated in $BASE_DIR"
 # This concludes the 100-topic generator suite.

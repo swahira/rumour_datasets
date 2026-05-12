@@ -33,4 +33,4 @@ raw = """
 """
 EOF
 
-echo "✅ DateTime Dataset Generated in $BASE_DIR"
+echo "DateTime Dataset Generated in $BASE_DIR"

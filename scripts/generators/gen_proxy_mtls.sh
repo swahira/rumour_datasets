@@ -27,4 +27,4 @@ url = "{{base_url}}/mtls-protected"
 x-client-cert-dn = "CN=Rumour-Client, O=Rumour-Audit"
 EOF
 
-echo "✅ Proxy-mTLS Dataset Generated in $BASE_DIR"
+echo "Proxy-mTLS Dataset Generated in $BASE_DIR"

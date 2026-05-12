@@ -25,4 +25,4 @@ method = "GET"
 url = "{{base_url}}/msgpack"
 EOF
 
-echo "✅ Data-Adv Dataset Generated in $BASE_DIR"
+echo "Data-Adv Dataset Generated in $BASE_DIR"

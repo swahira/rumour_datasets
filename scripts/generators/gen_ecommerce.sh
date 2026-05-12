@@ -74,4 +74,4 @@ raw = """
 """
 EOF
 
-echo "✅ Synchronized Ecommerce Generator."
+echo "Synchronized Ecommerce Generator."

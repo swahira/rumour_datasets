@@ -41,4 +41,4 @@ raw = "SAMLResponse=PHNhbWxwOlJlc3BvbnNlIHhtbG5zOnNhbWxwPSJ1cm46b2FzaXM6bmFtZXM6
 samlSubject = "samlp:Response.saml:Assertion.saml:Subject"
 EOF
 
-echo "✅ Trust Dataset Generated in $BASE_DIR"
+echo "Trust Dataset Generated in $BASE_DIR"

@@ -44,4 +44,4 @@ method = "GET"
 url = "{{base_url}}/bloat?kb=10"
 EOF
 
-echo "✅ Synchronized Chaos Generator."
+echo "Synchronized Chaos Generator."

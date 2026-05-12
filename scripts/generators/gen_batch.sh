@@ -28,4 +28,4 @@ firstBulkId = "results.0.id"
 lastBulkId = "results.2.id"
 EOF
 
-echo "✅ Batch Dataset Generated in $BASE_DIR"
+echo "Batch Dataset Generated in $BASE_DIR"

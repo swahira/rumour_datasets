@@ -26,4 +26,4 @@ method = "GET"
 url = "{{base_url}}/handshake"
 EOF
 
-echo "✅ Realtime Dataset Generated in $BASE_DIR"
+echo "Realtime Dataset Generated in $BASE_DIR"

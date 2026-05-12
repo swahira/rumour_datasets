@@ -17,4 +17,4 @@ url = "{{base_url}}/brotli"
 Accept-Encoding = "br"
 EOF
 
-echo "✅ Transmission-Adv Dataset Generated in $BASE_DIR"
+echo "Transmission-Adv Dataset Generated in $BASE_DIR"

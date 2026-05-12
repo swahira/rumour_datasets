@@ -37,4 +37,4 @@ url = "{{base_url}}/secure-content"
 contentDigest = "header.Digest"
 EOF
 
-echo "✅ Formats-Adv Dataset Generated in $BASE_DIR"
+echo "Formats-Adv Dataset Generated in $BASE_DIR"

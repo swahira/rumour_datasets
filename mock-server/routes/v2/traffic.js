@@ -29,4 +29,19 @@ router.get('/ip-limit', (req, res) => {
     res.json({ status: "ok", ip, hits: ipHits[ip] });
 });
 
+// 3. Fixed Window Throttling
+let throttleHits = 0;
+router.get('/throttle', (req, res) => {
+    throttleHits++;
+    if (throttleHits > 2) {
+        return res.status(429).json({ error: "Throttled", hits: throttleHits });
+    }
+    res.json({ status: "ok", hits: throttleHits });
+});
+
+// 4. Burst Capacity
+router.get('/burst', (req, res) => {
+    res.json({ status: "Burst Accepted", timestamp: Date.now() });
+});
+
 module.exports = router;

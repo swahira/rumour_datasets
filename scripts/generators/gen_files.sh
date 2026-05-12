@@ -39,4 +39,4 @@ method = "GET"
 url = "{{base_url}}/download/{{file_asset_id}}"
 EOF
 
-echo "✅ Synchronized Files Generator."
+echo "Synchronized Files Generator."

@@ -21,4 +21,4 @@ method = "GET"
 url = "{{base_url}}/image"
 EOF
 
-echo "✅ Binary Deep Dataset Generated in $BASE_DIR"
+echo "Binary Deep Dataset Generated in $BASE_DIR"

@@ -29,4 +29,4 @@ status = 200
 body_contains = "Rumour Master Playground"
 EOF
 
-echo "✅ Docs-Master Generator Created."
+echo "Docs-Master Generator Created."

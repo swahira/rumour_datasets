@@ -46,5 +46,5 @@ raw = """
 """
 EOF
 
-echo "✅ Idempotency Dataset Generated in $BASE_DIR"
+echo "Idempotency Dataset Generated in $BASE_DIR"
 # Note: I'll use a fixed key in the actual run to test the 'same key' logic.

@@ -44,4 +44,4 @@ method = "GET"
 url = "{{base_url}}/navigation/loop"
 EOF
 
-echo "✅ Synchronized Navigation Generator."
+echo "Synchronized Navigation Generator."

@@ -25,4 +25,4 @@ url = "{{base_url}}/stable-resource?fail=true"
 EOF
 done
 
-echo "✅ Synchronized Resilience Generator."
+echo "Synchronized Resilience Generator."

@@ -24,4 +24,4 @@ method = "GET"
 url = "{{base_url}}/pipe-delimited"
 EOF
 
-echo "✅ Serialization Dataset Generated in $BASE_DIR"
+echo "Serialization Dataset Generated in $BASE_DIR"

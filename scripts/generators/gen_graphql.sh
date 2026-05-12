@@ -40,4 +40,4 @@ raw = """
 """
 EOF
 
-echo "✅ Synchronized GraphQL Generator."
+echo "Synchronized GraphQL Generator."

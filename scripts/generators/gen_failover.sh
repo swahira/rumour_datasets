@@ -24,4 +24,4 @@ url = "{{base_url}}/multiplex"
 Accept = "multipart/mixed"
 EOF
 
-echo "✅ Failover Dataset Generated in $BASE_DIR"
+echo "Failover Dataset Generated in $BASE_DIR"

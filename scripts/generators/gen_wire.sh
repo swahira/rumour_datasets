@@ -21,4 +21,4 @@ type = "text"
 raw = "RAW_PROTO_BINARY_DATA"
 EOF
 
-echo "✅ Wire Dataset Generated in $BASE_DIR"
+echo "Wire Dataset Generated in $BASE_DIR"

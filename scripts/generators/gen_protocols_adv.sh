@@ -38,4 +38,4 @@ url = "{{base_url}}/quic-discovery"
 h3_support = "header.Alt-Svc"
 EOF
 
-echo "✅ Protocols-Adv Dataset Generated in $BASE_DIR"
+echo "Protocols-Adv Dataset Generated in $BASE_DIR"

@@ -31,4 +31,4 @@ method = "GET"
 url = "{{base_url}}/mqtt-sim"
 EOF
 
-echo "✅ Realtime-Adv Dataset Generated in $BASE_DIR"
+echo "Realtime-Adv Dataset Generated in $BASE_DIR"
