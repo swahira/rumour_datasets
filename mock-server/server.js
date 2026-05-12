@@ -14,11 +14,8 @@ app.use((req, res, next) => {
 });
 
 // 1. Dynamic Topic Module Loader
-// We will create individual files in routes/v2 for every topic you listed
 const v2Dir = path.join(__dirname, 'routes', 'v2');
 if (!fs.existsSync(v2Dir)) fs.mkdirSync(v2Dir, { recursive: true });
-
-const catchAlls = [];
 
 fs.readdirSync(v2Dir).forEach(file => {
   if (file.endsWith('.js')) {
@@ -26,27 +23,15 @@ fs.readdirSync(v2Dir).forEach(file => {
     const hyphenatedName = routeName.replace(/_/g, '-');
     const route = require(`./routes/v2/${file}`);
     
-    if (routeName === 'playback' || routeName === 'docs_master') {
-      catchAlls.push({ routeName, hyphenatedName, route });
+    // PRODUCTION: Mount at topic prefix ONLY to prevent root collisions
+    app.use(`/${routeName}`, route);
+    if (routeName !== hyphenatedName) {
+      app.use(`/${hyphenatedName}`, route);
+      console.log(`Loaded Topic Module: ${routeName} (aliased to ${hyphenatedName})`);
     } else {
-      app.use(`/`, route);
-      app.use(`/${routeName}`, route);
-      if (routeName !== hyphenatedName) {
-        app.use(`/${hyphenatedName}`, route);
-      }
       console.log(`Loaded Topic Module: ${routeName}`);
     }
   }
-});
-
-// Mount catch-alls last so they don't intercept specific routes
-catchAlls.forEach(({ routeName, hyphenatedName, route }) => {
-  app.use(`/`, route);
-  app.use(`/${routeName}`, route);
-  if (routeName !== hyphenatedName) {
-    app.use(`/${hyphenatedName}`, route);
-  }
-  console.log(`Loaded Catch-all Module: ${routeName}`);
 });
 
 // Swagger Setup
@@ -61,19 +46,15 @@ const swaggerOptions = {
       version: '2.0.0',
       description: 'API Documentation for the Rumour Testing Environment',
     },
-    servers: [
-      {
-        url: `http://localhost:${PORT}`,
-      },
-    ],
+    servers: [{ url: `http://localhost:${PORT}` }],
   },
-  apis: ['./routes/**/*.js', './server.js'], // files containing annotations
+  apis: ['./routes/**/*.js', './server.js'],
 };
 
 const swaggerSpec = swaggerJsdoc(swaggerOptions);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
-// Legacy routes for backward compatibility during transition
+// Legacy routes
 app.use('/api/battle', require('./routes/battle'));
 app.use('/api', require('./routes/misc'));
 app.use('/api/files', require('./routes/files'));

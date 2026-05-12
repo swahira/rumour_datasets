@@ -1,0 +1,10 @@
+[request]
+method = "POST"
+url = "{{base_url}}/api/v2/users"
+
+[extract]
+user_id = "id"
+
+[body]
+type = "json"
+raw = "{\"username\": \"ghost_user\", \"role\": \"tester\"}"

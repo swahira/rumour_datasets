@@ -1,0 +1,6 @@
+[request]
+method = "GET"
+url = "{{base_url}}/api/v2/users/{{user_id}}"
+
+[assert]
+status = 200

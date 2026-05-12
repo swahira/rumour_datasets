@@ -1,0 +1,7 @@
+[request]
+method = "GET"
+url = "{{base_url}}/auth/validate"
+
+[headers]
+# Using namespaced variable
+Authorization = "{{auth_prefix}} {{auth_token}}"

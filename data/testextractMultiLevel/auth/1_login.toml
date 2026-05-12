@@ -1,0 +1,13 @@
+[request]
+method = "POST"
+url = "{{base_url}}/auth/login"
+
+[body]
+type = "json"
+raw = """
+{"email": "admin", "password": "password123"}
+"""
+
+[extract]
+# Namespaced variable
+auth_token = "token"
