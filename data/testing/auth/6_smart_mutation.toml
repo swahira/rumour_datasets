@@ -1,0 +1,13 @@
+[request]
+method = "POST"
+url = "{{base_url}}/auth/profile"
+
+[body]
+type = "json"
+raw = """
+{
+  "age": 30,
+  "bio": "Software Engineer",
+  "website": null
+}
+"""

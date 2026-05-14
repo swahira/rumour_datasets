@@ -9,9 +9,10 @@ app.use(express.json({ limit: '100mb' }));
 app.use(express.urlencoded({ extended: true, limit: '100mb' }));
 
 app.use((req, res, next) => {
-  console.log(`[DEBUG] ${req.method} ${req.url} - Content-Type: ${req.headers['content-type']}`);
+  console.log(`[DEBUG] ${req.method} ${req.originalUrl} (path: ${req.path})`);
   next();
 });
+
 
 // 1. Dynamic Topic Module Loader
 // We will create individual files in routes/v2 for every topic you listed

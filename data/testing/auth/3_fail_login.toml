@@ -1,0 +1,10 @@
+[request]
+method = "POST"
+url = "{{base_url}}/auth/login"
+
+[body]
+type = "json"
+raw = """
+{"email": "hacker@example.com", "password": "fail"}
+"""
+

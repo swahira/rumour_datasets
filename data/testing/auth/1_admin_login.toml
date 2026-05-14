@@ -1,0 +1,12 @@
+[request]
+method = "POST"
+url = "{{base_url}}/auth/login"
+
+[body]
+type = "json"
+raw = """
+{"email": "superadmin", "password": "securepassword", "role": "admin"}
+"""
+
+[extract]
+accessToken = "token"
